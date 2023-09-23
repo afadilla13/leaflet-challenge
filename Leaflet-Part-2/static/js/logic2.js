@@ -106,7 +106,7 @@ d3.json(geoData).then(function (data) {
         // Loop through depth ranges and generate colored squares and labels
         for (var i = 0; i < depth.length; i++) {
             var label = depth[i] + (depth[i + 1] ? '&ndash;' + depth[i + 1] + '<br>' : '+');
-            var colorSquare = '<span style="background-color:' + chooseColor(depth[i] + 1) + '">&nbsp;&nbsp;&nbsp;&nbsp;</span>';
+            var colorSquare = '<span style="background-color:' + mapColor(depth[i] + 1) + '">&nbsp;&nbsp;&nbsp;&nbsp;</span>';
             div.innerHTML += colorSquare + label + '<br>';
         }
 
