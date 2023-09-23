@@ -4,7 +4,6 @@ The United States Geological Survey (USGS) is responsible for providing scientif
 
 ## Table of Contents
 - [Before You Begin](#before-you-begin)
-- [Files](#files)
 - [Part 1: Create the Earthquake Visualization](#part-1-create-the-earthquake-visualization)
 - [Part 2: Gather and Plot More Data (Optional)](#part-2-gather-and-plot-more-data-optional)
 
@@ -14,9 +13,6 @@ The United States Geological Survey (USGS) is responsible for providing scientif
 3. Inside your local git repository, create a directory for the Leaflet challenge with the following folders: `Leaflet-Part-1` and `Leaflet-Part-2`.
 4. This Challenge requires both HTML and JavaScript, so be sure to add all the necessary files. These will be the main files to run for analysis.
 5. Push the changes to your GitHub repository.
-
-### Files <a name="files"></a>
-Download the necessary files to help you get started from [Module 15 Challenge files](#).
 
 ### Part 1: Create the Earthquake Visualization <a name="part-1-create-the-earthquake-visualization"></a>
 Your first task is to visualize an earthquake dataset. Follow these steps:
@@ -33,3 +29,24 @@ Your first task is to visualize an earthquake dataset. Follow these steps:
 3. **Create a Legend**: Develop a legend to provide context for the map data. The legend should explain how earthquake depth correlates with marker color.
 
 Your final visualization should resemble the example map provided.
+![Part 1](https://github.com/afadilla13/leaflet-challenge/assets/128363337/183aaff8-367e-44bf-b64a-d210f14e5134)
+
+### Part 2: Gather and Plot More Data (Optional)
+
+In this optional part of the project, you can take your visualization to the next level by plotting a second dataset to illustrate the relationship between tectonic plates and seismic activity. To achieve this, follow these steps:
+
+1. **Gather Tectonic Plate Data**: You can find the necessary data on tectonic plates at [fraxen/tectonicplates](https://github.com/fraxen/tectonicplates).
+
+2. **Import and Visualize Tectonic Plate Data**: Use the URL of the tectonic plate GeoJSON dataset to pull in the data for visualization. Perform the following:
+
+   - Utilize the Leaflet library to create a map that plots both earthquake data and tectonic plate data.
+   - Customize the appearance of tectonic plate boundaries on the map for clarity.
+
+3. **Combine Earthquake and Tectonic Plate Data**: Create a map that combines earthquake data and tectonic plate data, illustrating their spatial relationship.
+
+4. **Add Additional Information**: Consider adding popups or other elements to provide context for the map data and enhance user understanding.
+
+5. **Challenge Yourself**: This part is optional, intended to challenge yourself and further boost your skills in data visualization and mapping.
+
+The following image is an example screenshot of what you could produce:
+![Part 2](https://github.com/afadilla13/leaflet-challenge/assets/128363337/57937264-5d16-4be8-9899-cd561a9312e9)
