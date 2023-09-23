@@ -1,35 +1,33 @@
-# USGS Earthquake Data Visualization
-
+USGS Earthquake Data Visualization
 The United States Geological Survey (USGS) is responsible for providing scientific data about natural hazards, the health of ecosystems, and environmental impacts. They collect a vast amount of earthquake data worldwide daily but lack a meaningful way to visualize it. In this project, we aim to develop a visualization tool for USGS earthquake data to educate the public and government organizations on critical Earth-related issues.
 
-## Table of Contents
-- [Before You Begin](#before-you-begin)
-- [Files](#files)
-- [Part 1: Create the Earthquake Visualization](#part-1-create-the-earthquake-visualization)
-- [Part 2: Gather and Plot More Data (Optional)](#part-2-gather-and-plot-more-data-optional)
+Table of Contents
+Before You Begin
+Files
+Part 1: Create the Earthquake Visualization
+Part 2: Gather and Plot More Data (Optional)
+Before You Begin <a name="before-you-begin"></a>
+Create a new repository for this project called leaflet-challenge. Do not add this Challenge to an existing repository.
+Clone the new repository to your computer.
+Inside your local git repository, create a directory for the Leaflet challenge with the following folders: Leaflet-Part-1 and Leaflet-Part-2.
+This Challenge requires both HTML and JavaScript, so be sure to add all the necessary files. These will be the main files to run for analysis.
+Push the changes to your GitHub repository.
+Files <a name="files"></a>
+Download the necessary files to help you get started from Module 15 Challenge files.
 
-### Before You Begin <a name="before-you-begin"></a>
-1. Create a new repository for this project called `leaflet-challenge`. **Do not add this Challenge to an existing repository.**
-2. Clone the new repository to your computer.
-3. Inside your local git repository, create a directory for the Leaflet challenge with the following folders: `Leaflet-Part-1` and `Leaflet-Part-2`.
-4. This Challenge requires both HTML and JavaScript, so be sure to add all the necessary files. These will be the main files to run for analysis.
-5. Push the changes to your GitHub repository.
-
-### Files <a name="files"></a>
-Download the necessary files to help you get started from [Module 15 Challenge files](#).
-
-### Part 1: Create the Earthquake Visualization <a name="part-1-create-the-earthquake-visualization"></a>
+Part 1: Create the Earthquake Visualization <a name="part-1-create-the-earthquake-visualization"></a>
 Your first task is to visualize an earthquake dataset. Follow these steps:
 
-1. **Get Your Dataset**: Obtain earthquake data from the USGS in GeoJSON format. To do this:
-   - Visit the [USGS GeoJSON Feed](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page.
-   - Choose a dataset to visualize, such as "All Earthquakes from the Past 7 Days."
+Get Your Dataset: Obtain earthquake data from the USGS in GeoJSON format. To do this:
 
-2. **Import and Visualize Data**: Use the URL of the selected JSON dataset to pull in the data for the visualization. Perform the following:
-   - Utilize the Leaflet library to create a map that plots all the earthquakes based on their latitude and longitude coordinates.
-   - Customize data markers to reflect the earthquake's magnitude by size and depth by color. Larger earthquakes should have bigger markers, and deeper ones should appear darker.
-   - Add popups to provide additional information about each earthquake when a marker is clicked.
+Visit the USGS GeoJSON Feed page.
+Choose a dataset to visualize, such as "All Earthquakes from the Past 7 Days."
+Import and Visualize Data: Use the URL of the selected JSON dataset to pull in the data for the visualization. Perform the following:
 
-3. **Create a Legend**: Develop a legend to provide context for the map data. The legend should explain how earthquake depth correlates with marker color.
+Utilize the Leaflet library to create a map that plots all the earthquakes based on their latitude and longitude coordinates.
+Customize data markers to reflect the earthquake's magnitude by size and depth by color. Larger earthquakes should have bigger markers, and deeper ones should appear darker.
+Add popups to provide additional information about each earthquake when a marker is clicked.
+Create a Legend: Develop a legend to provide context for the map data. The legend should explain how earthquake depth correlates with marker color.
 
-Your final visualization should resemble the example map provided.
+Part 2: Gather and Plot More Data (Optional) <a name="part-2-gather-and-plot-more-data-optional"></a>
+This part of the challenge is optional and does not earn extra points. It involves gathering and visualizing additional earthquake data.
