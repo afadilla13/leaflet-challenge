@@ -12,11 +12,11 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Define the GeoJSON data URL
 var geoData = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
-// Define a variable to hold GeoJSON data
-var geojson;
-
 // Retrieve earthquake data from the provided URL
 d3.json(geoData).then(function (data) {
+    // Console log the data retrieved
+    console.log(data);
+
     // Function to map depth to color
     function mapColor(depth) {
         return depth > 90 ? '#0000FF' :
