@@ -4,7 +4,6 @@ The United States Geological Survey (USGS) is responsible for providing scientif
 
 ## Table of Contents
 - [Before You Begin](#before-you-begin)
-- [Files](#files)
 - [Part 1: Create the Earthquake Visualization](#part-1-create-the-earthquake-visualization)
 - [Part 2: Gather and Plot More Data (Optional)](#part-2-gather-and-plot-more-data-optional)
 
@@ -14,9 +13,6 @@ The United States Geological Survey (USGS) is responsible for providing scientif
 3. Inside your local git repository, create a directory for the Leaflet challenge with the following folders: `Leaflet-Part-1` and `Leaflet-Part-2`.
 4. This Challenge requires both HTML and JavaScript, so be sure to add all the necessary files. These will be the main files to run for analysis.
 5. Push the changes to your GitHub repository.
-
-### Files <a name="files"></a>
-Download the necessary files to help you get started from [Module 15 Challenge files](#).
 
 ### Part 1: Create the Earthquake Visualization <a name="part-1-create-the-earthquake-visualization"></a>
 Your first task is to visualize an earthquake dataset. Follow these steps:
